@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ConvertMilesPipe } from './convert-miles.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConvertMilesPipe
   ],
   imports: [
     BrowserModule
